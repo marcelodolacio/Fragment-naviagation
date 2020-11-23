@@ -12,6 +12,9 @@ class MainActivity : AppCompatActivity() {
         val fragmentManager = supportFragmentManager
         val fragmentTransaction = fragmentManager.beginTransaction()
         fragmentTransaction.replace(R.id.nha, SampleFragment()).commit()
+
+
+        
     }
     fun fragmentMethod() {
         Toast.makeText(this@MainActivity, "Method called From Fragment",
